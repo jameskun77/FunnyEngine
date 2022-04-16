@@ -1,6 +1,0 @@
-﻿  FunnyEngine.cpp
-  scene.cpp
-  sceneNode.cpp
-d:\workspace\superengine\funnyengine\funnyengine\scene\scenenode.cpp(168): warning C4018: “<”: 有符号/无符号不匹配
-  正在生成代码...
-  FunnyEngine.vcxproj -> D:\workSpace\SuperEngine\FunnyEngine\Debug\FunnyEngine.exe

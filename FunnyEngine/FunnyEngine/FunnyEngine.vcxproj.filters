@@ -19,6 +19,18 @@
     <Filter Include="scene">
       <UniqueIdentifier>{05789e22-ffd5-45f3-9b94-bc155a174500}</UniqueIdentifier>
     </Filter>
+    <Filter Include="shading">
+      <UniqueIdentifier>{8c1d052d-3cb2-494d-bad6-72a880dc3db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{f1e225d3-6be3-408f-bbaf-bde6caf7708d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb">
+      <UniqueIdentifier>{f99e53e2-bd99-4a1b-949f-d91b38134bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{769a664a-41a8-4e78-a754-302897a6a318}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunnyEngine.cpp">
@@ -30,6 +42,36 @@
     <ClCompile Include="scene\sceneNode.cpp">
       <Filter>scene</Filter>
     </ClCompile>
+    <ClCompile Include="renderer\commandBuffer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="shading\material.cpp">
+      <Filter>shading</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="stb\stb_image.cpp">
+      <Filter>stb</Filter>
+    </ClCompile>
+    <ClCompile Include="shading\shader.cpp">
+      <Filter>shading</Filter>
+    </ClCompile>
+    <ClCompile Include="shading\texture.cpp">
+      <Filter>shading</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\textureLoader.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\shaderLoader.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resources.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\meshLoader.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="renderer\renderer.h">
@@ -40,6 +82,45 @@
     </ClInclude>
     <ClInclude Include="scene\sceneNode.h">
       <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\commandBuffer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="shading\material.h">
+      <Filter>shading</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\khrplatform.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="stb\stb_image.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="shading\shader.h">
+      <Filter>shading</Filter>
+    </ClInclude>
+    <ClInclude Include="shading\shadingType.h">
+      <Filter>shading</Filter>
+    </ClInclude>
+    <ClInclude Include="shading\texture.h">
+      <Filter>shading</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\textureLoader.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\shaderLoader.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resources.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\meshLoader.h">
+      <Filter>resources</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
