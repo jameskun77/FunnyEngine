@@ -1,8 +1,8 @@
 #include "meshLoader.h"
 
-#include "../assimp/include/assimp/Importer.hpp"
-#include "../assimp/include/assimp/scene.h"
-#include "../assimp/include/assimp/postprocess.h"
+#include "../include/assimp/Importer.hpp"
+#include "../include/assimp/scene.h"
+#include "../include/assimp/postprocess.h"
 
 #include <iostream>
 
