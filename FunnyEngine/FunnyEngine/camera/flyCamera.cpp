@@ -6,10 +6,10 @@ template <typename T>
 	return (1.0f - t) * a + b * t;
 }
 
-glm::vec3 lerp(glm::vec3& a, glm::vec3& b.const float t)
+glm::vec3 lerp(glm::vec3& a, glm::vec3& b,const float t)
 {
 	glm::vec3 result;
-	for (unsigned int i = 0; i < 3, i++)
+	for (unsigned int i = 0; i < 3; i++)
 	{
 		result[i] = lerp(a[i], b[i], t);
 	}

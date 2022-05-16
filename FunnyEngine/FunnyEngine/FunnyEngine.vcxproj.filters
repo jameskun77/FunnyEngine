@@ -31,6 +31,18 @@
     <Filter Include="resources">
       <UniqueIdentifier>{769a664a-41a8-4e78-a754-302897a6a318}</UniqueIdentifier>
     </Filter>
+    <Filter Include="mesh">
+      <UniqueIdentifier>{5041f878-63a7-48d1-bcd4-fc27d8e82201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{b0fd47a5-9d70-40ff-8397-6a85371c43b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{0fc01b45-c666-4137-a49c-9291851b405b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnGLUnit">
+      <UniqueIdentifier>{8279e71f-8127-4409-b354-4bb353de04f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunnyEngine.cpp">
@@ -71,6 +83,36 @@
     </ClCompile>
     <ClCompile Include="resources\meshLoader.cpp">
       <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh\mesh.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh\cube.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\cameraFrustum.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\flyCamera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderTarget.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\glCache.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\MaterialLibrary.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="learnGLUnit\first_1.1_drawCube\cubeShow.cpp">
+      <Filter>learnGLUnit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +163,54 @@
     </ClInclude>
     <ClInclude Include="resources\meshLoader.h">
       <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\mesh.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\cube.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\cameraFrustum.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\flyCamera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="math\common.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\matrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\operation.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\transformation.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderTarget.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\glCache.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\MaterialLibrary.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="learnGLUnit\first_1.1_drawCube\cubeShow.h">
+      <Filter>learnGLUnit</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
